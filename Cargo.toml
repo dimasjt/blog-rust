@@ -1,10 +1,18 @@
 [package]
 name = "blog"
 version = "0.1.0"
-authors = ["Dimas J. Taniawan <dimas.taniawan@bocistudio.com>"]
+authors = ["Dimas J. Taniawan <dimazniawan@gmail.com>"]
 
 [dependencies]
 iron = "0.5.1"
 router = "0.5.1"
 logger = "0.3.0"
 env_logger = "0.4.3"
+handlebars = "*"
+serde_json = "*"
+tera = "*"
+lazy_static = "*"
+bodyparser = "*"
+persistent = "*"
+serde_derive = "*"
+rustc-serialize = "*"
